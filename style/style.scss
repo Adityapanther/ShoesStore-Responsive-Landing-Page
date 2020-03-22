@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.wrapper{
+    width: 100%;
+    
+
+    header {
+        width: 100%;
+        height: 56px;
+        background-color: rgba(16, 96, 216, 0.589);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 20%;
+            height: 0 auto;
+            margin-left: 0.5em;
+        }
+
+        .nav {
+            margin-right: 0.5em;
+
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+
+                li {
+                    margin-right: 1em;
+
+                    a {
+                        color: #ffffff;
+                        font-size: 1rem;
+                        font-family: acme;
+                        font-weight: 400;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .main-section {
+        width: 100%;
+        height: 100vh;
+        background: url('../images/fashion-shoes-footwear-19090.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-y: 70%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+
+
+
+        .main-upper {
+            width: 35%;
+            margin-top: 5em;
+            margin-right: 2em;
+
+            h2 {
+                font-family: noto serif;
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-transform: uppercase;
+
+            }
+
+            p {
+                margin-top: 20px;
+                margin-bottom: 30px;
+                font-family: roboto slab;
+                color: rgba(8, 8, 8, 0.589);
+                text-transform: uppercase;
+            }
+
+            button {
+                width: 6em;
+                height: 2.5em;
+                border-style: none;
+                border: 1px solid #e7e7e7;
+                border-radius: 3px;
+                color: #f5eeee;
+                float: inline-end;
+                font-family: acme;
+                font-size: 14px;
+                outline: none;
+                background-color: rgba(16, 96, 216, 0.589);
+                box-shadow: 1px 1px 3px rgba(243, 243, 243, 0.5);
+            }
+        }
+
+
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(229, 237, 247);
+
+        .second-section {
+            width: 95%;
+            min-height: 10vh;
+            max-height: auto;
+            overflow: hidden;
+            display: grid;
+            grid-gap: 1em;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+            .container-shoes {
+                width: 100%;
+                height: 25em;
+                margin-top: 1em;
+                background-color: #ffffff;
+                margin-bottom: 10px;
+                border-radius: 5px;
+                box-shadow: 1px 1px 10px rgba(87, 86, 86, 0.2);
+                .image-wrap{
+                    width: 100%;
+                    height: 12em;
+                   
+
+                    .shoes-pic{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+
+                        img{
+                            width: 95%;
+                            height: 100%;
+                        }
+                    }
+
+                    .image-color{
+                        z-index: 5555;
+                        position: relative;
+                        bottom: 185px;
+                        right: -5px;
+                        text-transform: uppercase;
+                        span{
+                            font-family: noto serif;
+                            font-weight: bold;
+                            font-size: 0.8rem;
+                            color: rgba(16, 96, 216, 0.589);
+
+                        }
+                    }
+                }
+
+                .shoes-info{
+                    width: 100%;
+                    height: auto;
+                    padding: 5px;
+
+                    .heading{
+                        padding: 1px;
+                        text-align: start;
+                        
+                        h2{
+                            font-size: 1rem;
+                            font-family: noto serif;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            color: rgba(0, 0, 0, 0.993);
+                        }
+                    }
+
+                    .desc{
+                        width: 100%;
+                        height: auto;
+                        margin-top: 5px;
+                        text-align: start;
+                        p{
+                            font-family: roboto slab;
+                            font-size: 0.9rem;
+                            font-weight: 500;
+                            color: rgba(37, 37, 37, 0.993);
+                        }
+                    }
+                }
+
+                .buy-btn{
+                    float: right;
+                    margin-right: 20px;
+
+                    button{
+                        width: 70px;
+                        height: 30px;
+                        border-style: none;
+                        border-radius: 3px;
+                        font-weight: bold;
+                        font-size: 0.8rem;
+                        font-family: roboto slab;
+                        background-color: rgba(16, 96, 216, 0.589);
+                        color: #ffffff;
+                    }
+                }
+
+                .price-tag{
+                    width: 100%;
+                    font-size: 1.1rem;
+                    text-align: start;
+                    margin-left: 15px;
+                    font-family: kaushan script;
+                    font-weight: bold;
+                    color: #f30010c7;
+
+                    p{
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        font-family: kaushan script;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+
+    .slider{
+        width: 100%;
+        height: 40em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(229, 237, 247);
+
+        .slide-image{
+            width: 95%;
+            height: 38em;
+
+            .slide-btn{
+                width: 40px;
+                height: 40px;
+                float: left;
+                background-color: #000000;
+                position: relative;
+                top: 50%;
+                border-style: none;
+                font-weight: bold;
+                font-size: 1rem;
+                border-radius: 3px;
+                color: #ffffff;
+            }
+
+            .left-btn{
+                float: left;
+            }
+            .right-btn{
+               float: right;
+            }
+        }
+    }
+
+    .footer{
+        width: 100%;
+        height: 3em;
+        margin-bottom: 1px;
+        background-color: rgba(255, 255, 255, 0.63);
+
+        .footer-second-row{
+            width: 100%;
+            height: 3em;
+            box-shadow: 0px -2px 3px #c7c7c7;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .brand-name{
+                margin-left: 5px;
+                a{
+                    font-family: acme;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.993);
+                }
+            }
+
+            .brand-info{
+                ul{
+                    display: inline-flex;
+                    justify-content: space-evenly;
+
+                    li{
+                        list-style-type: none;
+                        margin-right: 20px;
+                        a{
+                            font-family: acme;
+                            font-size: 0.9rem;
+                            font-weight: bold;
+                            color: rgba(0, 0, 0, 0.993);
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+   
+}
+

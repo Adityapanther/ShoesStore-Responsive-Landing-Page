@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper header {
+  width: 100%;
+  height: 56px;
+  background-color: rgba(16, 96, 216, 0.589);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper header .logo {
+  width: 20%;
+  height: 0 auto;
+  margin-left: 0.5em;
+}
+
+.wrapper header .nav {
+  margin-right: 0.5em;
+}
+
+.wrapper header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wrapper header .nav ul li {
+  margin-right: 1em;
+}
+
+.wrapper header .nav ul li a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: acme;
+  font-weight: 400;
+}
+
+.wrapper .main-section {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/fashion-shoes-footwear-19090.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.wrapper .main-section .main-upper {
+  width: 35%;
+  margin-top: 5em;
+  margin-right: 2em;
+}
+
+.wrapper .main-section .main-upper h2 {
+  font-family: noto serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.wrapper .main-section .main-upper p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: roboto slab;
+  color: rgba(8, 8, 8, 0.589);
+  text-transform: uppercase;
+}
+
+.wrapper .main-section .main-upper button {
+  width: 6em;
+  height: 2.5em;
+  border-style: none;
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+  color: #f5eeee;
+  float: inline-end;
+  font-family: acme;
+  font-size: 14px;
+  outline: none;
+  background-color: rgba(16, 96, 216, 0.589);
+  -webkit-box-shadow: 1px 1px 3px rgba(243, 243, 243, 0.5);
+          box-shadow: 1px 1px 3px rgba(243, 243, 243, 0.5);
+}
+
+.wrapper .container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e5edf7;
+}
+
+.wrapper .container .second-section {
+  width: 95%;
+  min-height: 10vh;
+  max-height: auto;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.wrapper .container .second-section .container-shoes {
+  width: 100%;
+  height: 25em;
+  margin-top: 1em;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 10px rgba(87, 86, 86, 0.2);
+          box-shadow: 1px 1px 10px rgba(87, 86, 86, 0.2);
+}
+
+.wrapper .container .second-section .container-shoes .image-wrap {
+  width: 100%;
+  height: 12em;
+}
+
+.wrapper .container .second-section .container-shoes .image-wrap .shoes-pic {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .container .second-section .container-shoes .image-wrap .shoes-pic img {
+  width: 95%;
+  height: 100%;
+}
+
+.wrapper .container .second-section .container-shoes .image-wrap .image-color {
+  z-index: 5555;
+  position: relative;
+  bottom: 185px;
+  right: -5px;
+  text-transform: uppercase;
+}
+
+.wrapper .container .second-section .container-shoes .image-wrap .image-color span {
+  font-family: noto serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: rgba(16, 96, 216, 0.589);
+}
+
+.wrapper .container .second-section .container-shoes .shoes-info {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.wrapper .container .second-section .container-shoes .shoes-info .heading {
+  padding: 1px;
+  text-align: start;
+}
+
+.wrapper .container .second-section .container-shoes .shoes-info .heading h2 {
+  font-size: 1rem;
+  font-family: noto serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.993);
+}
+
+.wrapper .container .second-section .container-shoes .shoes-info .desc {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  text-align: start;
+}
+
+.wrapper .container .second-section .container-shoes .shoes-info .desc p {
+  font-family: roboto slab;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(37, 37, 37, 0.993);
+}
+
+.wrapper .container .second-section .container-shoes .buy-btn {
+  float: right;
+  margin-right: 20px;
+}
+
+.wrapper .container .second-section .container-shoes .buy-btn button {
+  width: 70px;
+  height: 30px;
+  border-style: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: roboto slab;
+  background-color: rgba(16, 96, 216, 0.589);
+  color: #ffffff;
+}
+
+.wrapper .container .second-section .container-shoes .price-tag {
+  width: 100%;
+  font-size: 1.1rem;
+  text-align: start;
+  margin-left: 15px;
+  font-family: kaushan script;
+  font-weight: bold;
+  color: #f30010c7;
+}
+
+.wrapper .container .second-section .container-shoes .price-tag p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: kaushan script;
+  color: #000000;
+}
+
+.wrapper .slider {
+  width: 100%;
+  height: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e5edf7;
+}
+
+.wrapper .slider .slide-image {
+  width: 95%;
+  height: 38em;
+}
+
+.wrapper .slider .slide-image .slide-btn {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-color: #000000;
+  position: relative;
+  top: 50%;
+  border-style: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.wrapper .slider .slide-image .left-btn {
+  float: left;
+}
+
+.wrapper .slider .slide-image .right-btn {
+  float: right;
+}
+
+.wrapper .footer {
+  width: 100%;
+  height: 3em;
+  margin-bottom: 1px;
+  background-color: rgba(255, 255, 255, 0.63);
+}
+
+.wrapper .footer .footer-second-row {
+  width: 100%;
+  height: 3em;
+  -webkit-box-shadow: 0px -2px 3px #c7c7c7;
+          box-shadow: 0px -2px 3px #c7c7c7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .footer .footer-second-row .brand-name {
+  margin-left: 5px;
+}
+
+.wrapper .footer .footer-second-row .brand-name a {
+  font-family: acme;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.993);
+}
+
+.wrapper .footer .footer-second-row .brand-info ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wrapper .footer .footer-second-row .brand-info ul li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.wrapper .footer .footer-second-row .brand-info ul li a {
+  font-family: acme;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.993);
+}
+/*# sourceMappingURL=style.css.map */
