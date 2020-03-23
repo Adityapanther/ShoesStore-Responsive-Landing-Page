@@ -237,6 +237,11 @@
         .slide-image{
             width: 95%;
             height: 38em;
+            padding: 0px 10px;
+            background-image: url(../images/slide_img/vans-old-skool.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 80% 95%;
 
             .slide-btn{
                 width: 40px;
@@ -257,6 +262,29 @@
             }
             .right-btn{
                float: right;
+            }
+
+            .dot_slide{
+                min-width: 20px;
+                min-height: 10px;
+                position: relative;
+                top: 90%;
+                display: flex;
+                justify-content: center;
+                
+                
+
+                .dot{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 5px;
+                    border-radius: 1px;
+                    background-color: grey;
+                }
+
+                .dot:nth-child(2){
+                    background-color: #000;
+                }
             }
         }
     }
