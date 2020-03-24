@@ -277,14 +277,19 @@
   width: 40px;
   height: 40px;
   float: left;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
   position: relative;
   top: 50%;
   border-style: none;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 1rem;
+  outline: none;
   border-radius: 3px;
   color: #ffffff;
+}
+
+.wrapper .slider .slide-image .slide-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .wrapper .slider .slide-image .left-btn {
