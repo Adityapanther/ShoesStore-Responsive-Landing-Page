@@ -327,7 +327,7 @@
 
 .wrapper .footer {
   width: 100%;
-  height: 3em;
+  height: auto;
   margin-bottom: 1px;
   background-color: rgba(255, 255, 255, 0.63);
 }
@@ -378,5 +378,51 @@
   font-size: 0.9rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.993);
+}
+
+@media (max-width: 768px) {
+  .wrapper .main-section .main-upper {
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+  .wrapper .main-section .main-upper p {
+    display: none;
+  }
+  .wrapper .main-section .main-upper button {
+    margin-top: 3px;
+  }
+  .wrapper .slider .slide-image {
+    background-size: 80% 65%;
+  }
+  .footer .footer-second-row {
+    height: 10em;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapper .main-section .main-upper {
+    margin-top: 1em;
+  }
+  .wrapper .slider {
+    padding: 10px;
+  }
+  .wrapper .slider .slide-image {
+    background-size: 100% 65%;
+  }
+  .wrapper .footer .footer-second-row {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .wrapper .footer .footer-second-row .brand-info {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
