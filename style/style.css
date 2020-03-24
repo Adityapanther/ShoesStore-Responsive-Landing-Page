@@ -334,7 +334,8 @@
 
 .wrapper .footer .footer-second-row {
   width: 100%;
-  height: 3em;
+  min-height: 3em;
+  height: auto;
   -webkit-box-shadow: 0px -2px 3px #c7c7c7;
           box-shadow: 0px -2px 3px #c7c7c7;
   display: -webkit-box;
@@ -394,10 +395,20 @@
   .wrapper .slider .slide-image {
     background-size: 80% 65%;
   }
+  .footer {
+    padding: 10px;
+  }
   .footer .footer-second-row {
-    height: 10em;
     -webkit-box-shadow: none;
             box-shadow: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer .footer-second-row .brand-info ul {
+    display: block;
   }
 }
 
@@ -411,18 +422,20 @@
   .wrapper .slider .slide-image {
     background-size: 100% 65%;
   }
+  .wrapper .footer {
+    padding: 10px;
+  }
   .wrapper .footer .footer-second-row {
     -webkit-box-shadow: none;
             box-shadow: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  .wrapper .footer .footer-second-row .brand-info {
-    display: none;
+  .wrapper .footer .footer-second-row .brand-info ul {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */
